@@ -11,3 +11,13 @@ git clone https://github.com/asteroid-team/asteroid
 ```bash
 pip install asteroid
 ```
+
+## Stage3: find  the model under the librimix dataset
+```bash
+cd ../asteroid-master/egs/librimix
+```
+and you can find Comparison Models：
+ConvTasNet
+DPRNNTasNet
+DPTNet
+SuDORMRFNet
