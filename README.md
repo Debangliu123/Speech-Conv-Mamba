@@ -16,7 +16,7 @@ pip install asteroid
 ```bash
 cd ../asteroid-master/egs/librimix
 ```
-and you can find Comparison Models：
+now, you can find Comparison Models：
 ConvTasNet
 DPRNNTasNet
 DPTNet
