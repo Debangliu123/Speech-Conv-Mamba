@@ -13,8 +13,10 @@ pip install asteroid
 ```
 
 ###  Stage3: find  the model under the librimix dataset
+You need to first go into the folder containing the asteroid project
+then
 ```bash
-cd ../asteroid-master/egs/librimix
+cd asteroid-master/egs/librimix
 ```
 Now, you can find Comparison Models：
 ConvTasNet
