@@ -967,7 +967,6 @@ if __name__ == "__main__":
         inter_norm_before=True,
                              )
 
-
     import os
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     import numpy as np
