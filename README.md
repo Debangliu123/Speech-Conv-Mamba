@@ -1,7 +1,7 @@
 # Speech Conv-Mamba
 Selective Structured State Space Model with Temporal Dilated Convolution for Efficient Speech Separation
 
-### 1.Install Asteroid project
+### 1. Install Asteroid project
 
 -  Stage1: get Asteroid project files (This process refers to the asteroid project: https://github.com/asteroid-team/asteroid)
 ```bash
@@ -28,7 +28,7 @@ DPTNet
 
 SuDORMRFNet
 
-### 2.Install  Speech Conv-Mamba project
+### 2. Install  Speech Conv-Mamba project
 
 -  Stage1: get  Speech Conv-Mamba project files
 ```bash
@@ -47,7 +47,7 @@ Sepformer(Sepformer_Wrapper.py)
 
 Speech Conv-Mamba (*Our model will be uploaded after the final review)
 
-### 3.Training
+### 3. Training
 -  1.Training pipeline in asteroid
   
 For example, training SuDORMRFNet:
@@ -58,11 +58,11 @@ According to the run.sh file provided by Asteroid, we can easily train these mod
 
 -  2.Training pipeline in Speech Conv-Mamba 
 
-
-Stage1：
+Stage1: Configure training files
 ```bash
 cd   audio_only_UBImamba_prj/src
 ```
+Then, configure Audio_only_train1.py
 
 Stage2：
 Run Audio_only_train1.py to perform training (The training process and code partly refers to the project: https://github.com/kaituoxu/Conv-TasNet).
