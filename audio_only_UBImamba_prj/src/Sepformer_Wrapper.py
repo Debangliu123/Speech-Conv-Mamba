@@ -966,20 +966,6 @@ if __name__ == "__main__":
         intra_norm_before=True,
         inter_norm_before=True,
                              )
-    input = torch.rand(1, 16000)
-    output = model(input)
-    from thop import profile
-    from thop import clever_format
-    flops, params = profile(model, inputs=(input,), verbose=False)
-    flops, params = clever_format([flops, params], "%.3f")
-    print('output shape:', output.shape)
-    print('model size:', params)
-    print('flops',flops)
-
-    from ptflops import get_model_complexity_info
-    macs, params = get_model_complexity_info(model, (16000,), as_strings=True, print_per_layer_stat=True)
-    print('{:<30}  {:<8}'.format('Computational complexity(macs): ', macs))
-    print('{:<30}  {:<8}'.format('Number of parameters(params): ', params))
 
 
     import os
