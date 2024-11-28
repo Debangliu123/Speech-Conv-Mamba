@@ -50,6 +50,7 @@ Speech Conv-Mamba (*Our model will be uploaded after the final review)
 
 ### 3.Training
 -  1.Training pipeline in asteroid
+  
 For example, training SuDORMRFNet:
 ```bash
 cd asteroid-master/egs/librimix/SuDORMRFNet/run.sh
