@@ -1,4 +1,4 @@
-# Speech-Conv-Mamba
+# Speech Conv-Mamba
 Selective Structured State Space Model with Temporal Dilated Convolution for Efficient Speech Separation
 
 
@@ -20,11 +20,18 @@ You need to first go into the folder containing the asteroid project, then:
 cd asteroid-master/egs/librimix
 ```
 Now, you can find Comparison Models：
-ConvTasNet
-DPRNNTasNet
-DPTNet
-SuDORMRFNet
-and Speech-Conv-Mamba  will be uploaded after the final review.
+- ConvTasNet
+- DPRNNTasNet
+- DPTNet
+- SuDORMRFNet
+and
+```bash
+cd audio_only_UBImamba_prj/src
+```
+Now, you can find：
+- Sepformer(Sepformer_Wrapper.py)
+- Speech Conv-Mamba (Our model will be uploaded after the final review)
+
 
 ###  Stage4: Training
 For example, training SuDORMRFNet:
