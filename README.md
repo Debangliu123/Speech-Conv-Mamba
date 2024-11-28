@@ -57,7 +57,7 @@ cd asteroid-master/egs/librimix/SuDORMRFNet/run.sh
 ```
 According to the run.sh file provided by Asteroid, we can easily train these models on the libri2Mix dataset (Please make sure you have downloaded the librimix dataset). 
 
--  2.Training pipeline in Speech Conv-Mamba (https://github.com/kaituoxu/Conv-TasNet)
+-  2.Training pipeline in Speech Conv-Mamba 
 
 
 Stage1：
@@ -66,7 +66,7 @@ cd   audio_only_UBImamba_prj/src
 ```
 
 Stage2：
-Run Audio_only_train1.py to perform training. (The training process partly refers to the project: https://github.com/kaituoxu/Conv-TasNet)
+Run Audio_only_train1.py to perform training (The training process and code partly refers to the project: https://github.com/kaituoxu/Conv-TasNet).
 
 *Please note that in the librimix dataset (Please make sure you have downloaded the librimix dataset and generated a training set according to the instructions of the Asteroid project), using：
 ```
