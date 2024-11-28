@@ -3,8 +3,7 @@ Selective Structured State Space Model with Temporal Dilated Convolution for Eff
 
 ### 1.Install Asteroid project
 
--  Stage1: get Asteroid project files 
-(This process refers to the asteroid project: https://github.com/asteroid-team/asteroid)
+-  Stage1: get Asteroid project files (This process refers to the asteroid project: https://github.com/asteroid-team/asteroid)
 ```bash
 git clone https://github.com/asteroid-team/asteroid
 ```
