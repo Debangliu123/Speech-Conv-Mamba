@@ -68,13 +68,13 @@ cd   audio_only_UBImamba_prj/src
 Stage2：
 Run Audio_only_train1.py to perform training (The training process and code partly refers to the project: https://github.com/kaituoxu/Conv-TasNet).
 
-*Please note that in the librimix dataset (Please make sure you have downloaded the librimix dataset and generated a training set according to the instructions of the Asteroid project), using：
+*Under the the librimix dataset (Please make sure you have downloaded the librimix dataset and generated a training set according to the instructions of the Asteroid project), using：
 ```
 from  AVdata_LoadLandmark_for_librimix  import AudioandVideoDataLoader, AudioandVideoDataset
 from Audio_only_solver_for_audio_only import  Solver
 ```
 
-*and in the GRID dataset, using： 
+*Under the GRID dataset, using： 
 ```
 from Audio_visual_solver_for_audio_only import Solver
 from AVdata_LoadLandmark1 import AudioandVideoDataLoader, AudioandVideoDataset
