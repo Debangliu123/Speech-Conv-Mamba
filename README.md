@@ -46,7 +46,7 @@ AFRCNN (This model comes from the original paper project link: https://github.co
 Sepformer(Sepformer_Wrapper.py)
 (This model comes from the speechbrain project: https://github.com/speechbrain/speechbrain/)
 
-Speech Conv-Mamba (Our model will be uploaded after the final review)
+Speech Conv-Mamba (*Our model will be uploaded after the final review)
 
 ### 3.Training
 -  1.Training pipeline in asteroid
