@@ -4,7 +4,7 @@ Selective Structured State Space Model with Temporal Dilated Convolution for Eff
 ### 1.Install Asteroid project
 
 -  Stage1: get Asteroid project files 
-(The process refers to the asteroid project: https://github.com/asteroid-team/asteroid.git)
+(This process refers to the asteroid project: https://github.com/asteroid-team/asteroid.git)
 ```bash
 git clone https://github.com/asteroid-team/asteroid
 ```
@@ -41,7 +41,10 @@ cd audio_only_UBImamba_prj/src
 ```
 Now, you can find：
 
+AFRCNN (This model comes from the original paper project link: https://github.com/JusperLee/AFRCNN-For-Speech-Separation)
+
 Sepformer(Sepformer_Wrapper.py)
+(This model comes from the speechbrain project: https://github.com/speechbrain/speechbrain/)
 
 Speech Conv-Mamba (Our model will be uploaded after the final review)
 
@@ -53,7 +56,8 @@ cd asteroid-master/egs/librimix/SuDORMRFNet/run.sh
 ```
 According to the run.sh file provided by Asteroid, we can easily train these models on the libri2Mix dataset (Please make sure you have downloaded the librimix dataset). 
 
--  2.Training pipeline in Speech Conv-Mamba
+-  2.Training pipeline in Speech Conv-Mamba (https://github.com/kaituoxu/Conv-TasNet)
+
 
 Stage1：
 ```bash
@@ -61,7 +65,7 @@ cd   audio_only_UBImamba_prj/src
 ```
 
 Stage2：
-Run Audio_only_train1.py to perform training.
+Run Audio_only_train1.py to perform training. (The training process partly refers to the project: https://github.com/kaituoxu/Conv-TasNet)
 
 *Please note that in the librimix dataset (Please make sure you have downloaded the librimix dataset and generated a training set according to the instructions of the Asteroid project), using：
 ```
