@@ -12,7 +12,7 @@ git clone https://github.com/asteroid-team/asteroid
 pip install asteroid
 ```
 
-###  Stage3: find  the model under the librimix dataset
+###  Stage3: Find  the model under the librimix dataset
 You need to first go into the folder containing the asteroid project, then:
 ```bash
 cd asteroid-master/egs/librimix
@@ -22,3 +22,13 @@ ConvTasNet
 DPRNNTasNet
 DPTNet
 SuDORMRFNet
+
+###  Stage4: Training
+For example, training SuDORMRFNet:
+```bash
+cd asteroid-master/egs/librimix/SuDORMRFNet/run.sh
+```
+According to the run.sh file provided by Asteroid, we can easily train these models on the libri2Mix dataset (Please make sure you have downloaded the librimix dataset). 
+
+
+
