@@ -1,0 +1,16 @@
+cuda: 11.1  ubuntu:18.04
+librosa==0.7.2
+llvmlite==0.31.0
+matplotlib==3.3.4
+pytorch-lightning==1.5.10
+torch==1.9.1
+torch-stoi==0.1.2
+torchaudio=0.9.1
+torchvision==0.10.1
+tornado==6.1
+visdom==0.1.8.9
+wheel==0.37.0
+pytorch==1.9.1
+ffmpeg==4.3
+numpy==1.19.2
+python==3.6.13
