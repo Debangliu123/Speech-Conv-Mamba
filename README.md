@@ -48,7 +48,7 @@ Sepformer(Sepformer_Wrapper.py)
 Speech Conv-Mamba (*Our model will be uploaded after the final review)
 
 ### 3. Training
--  1.Training pipeline in asteroid
+- Training pipeline in asteroid
   
 For example, training SuDORMRFNet:
 ```bash
@@ -56,24 +56,27 @@ cd asteroid-master/egs/librimix/SuDORMRFNet/run.sh
 ```
 According to the run.sh file provided by Asteroid, we can easily train these models on the libri2Mix dataset (Please make sure you have downloaded the librimix dataset). 
 
--  2.Training pipeline in Speech Conv-Mamba 
+- Training pipeline in Speech Conv-Mamba 
 
-Stage1: Configure training files
+#### Stage1: Configure training files
 ```bash
 cd   audio_only_UBImamba_prj/src
 ```
 Then, configure Audio_only_train1.py
 
-Stage2：
-Run Audio_only_train1.py to perform training (The training process and code partly refers to the project: https://github.com/kaituoxu/Conv-TasNet).
+#### Stage2: run python file
+```bash
+python Audio_only_train1.py
+```
+to perform training (The training process and code partly refers to the project: https://github.com/kaituoxu/Conv-TasNet).
 
-*Under the the librimix dataset (Please make sure you have downloaded the librimix dataset and generated a training set according to the instructions of the Asteroid project), using：
+- Under the the librimix dataset (Please make sure you have downloaded the librimix dataset and generated a training set according to the instructions of the Asteroid project), using：
 ```
 from  AVdata_LoadLandmark_for_librimix  import AudioandVideoDataLoader, AudioandVideoDataset
 from Audio_only_solver_for_audio_only import  Solver
 ```
 
-*Under the GRID dataset, using： 
+- Under the GRID dataset, using： 
 ```
 from Audio_visual_solver_for_audio_only import Solver
 from AVdata_LoadLandmark1 import AudioandVideoDataLoader, AudioandVideoDataset
