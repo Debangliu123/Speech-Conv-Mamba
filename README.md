@@ -20,13 +20,13 @@ cd asteroid-master/egs/librimix
 ```
 Now, you can find Comparison Models：
 
-ConvTasNet
+**ConvTasNet**
 
-DPRNNTasNet
+**DPRNNTasNet**
 
-DPTNet
+**DPTNet**
 
-SuDORMRFNet
+**SuDORMRFNet**
 
 ### 2. Install  Speech Conv-Mamba project
 
@@ -40,9 +40,9 @@ cd audio_only_UBImamba_prj/src
 ```
 Now, you can find：
 
-AFRCNN (This model comes from the original paper project link: https://github.com/JusperLee/AFRCNN-For-Speech-Separation)
+**AFRCNN** (This model comes from the original paper project link: https://github.com/JusperLee/AFRCNN-For-Speech-Separation)
 
-Sepformer(Sepformer_Wrapper.py)
+**Sepformer** (Sepformer_Wrapper.py)
 (This model comes from the speechbrain project: https://github.com/speechbrain/speechbrain/)
 
 Speech Conv-Mamba (**Our model will be uploaded after the final review**)
